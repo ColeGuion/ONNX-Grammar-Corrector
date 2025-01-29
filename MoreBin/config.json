@@ -1,0 +1,6 @@
+{
+    "gibberish_model_path": "/home/tech/Documents/Gec_Onnx/ModelsOnnx/GibbOnnx/",
+    "gec_model_path": "/home/tech/Documents/Gec_Onnx/ModelsOnnx/GecOnnx/",
+    "llm_model_path": "/home/tech/Documents/Models/Mistral7b-Instruct/onnx/",
+    "logLevel": 0
+}

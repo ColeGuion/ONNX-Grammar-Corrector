@@ -1,0 +1,1447 @@
+desc: (none)
+cmd: ./runner
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=114565941
+mem_heap_B=392046203
+mem_heap_extra_B=733837
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=230762847
+mem_heap_B=446146421
+mem_heap_extra_B=1072715
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=300723066
+mem_heap_B=554470178
+mem_heap_extra_B=1044534
+mem_stacks_B=0
+heap_tree=detailed
+n5: 554470178 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 299274240 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 299274240 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 299274240 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 299274240 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 299274240 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 299274240 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 299274240 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 299274240 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 299274240 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 299274240 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 299274240 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 299274240 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 299274240 0x119B68: NewGeco (inference.c:202)
+              n1: 299274240 0x11F19B: mainGeco (main.c:709)
+               n0: 299274240 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n3: 130835071 0x50A0969: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 100000001 0x5D2DD93: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 100000001 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 100000001 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 100000001 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 100000001 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 100000001 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 100000001 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 100000001 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 100000001 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 100000001 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 100000001 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 100000001 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 100000001 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 100000001 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 100000001 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 100000001 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n1: 100000001 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 100000001 0x119B68: NewGeco (inference.c:202)
+                    n1: 100000001 0x11F19B: mainGeco (main.c:709)
+                     n0: 100000001 0x11F447: main (main.c:781)
+  n2: 30818554 0x5D2DF3F: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 30715571 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 30715571 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 30715571 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 30715571 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 30715571 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 30715571 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 30715571 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 30715571 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 30715571 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 30715571 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 30715571 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 30715571 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 30715571 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 30715571 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 30715571 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n1: 30715571 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 30715571 0x119B68: NewGeco (inference.c:202)
+                    n1: 30715571 0x11F19B: mainGeco (main.c:709)
+                     n0: 30715571 0x11F447: main (main.c:781)
+   n0: 102983 in 5 places, all below massif's threshold (1.00%)
+  n0: 16516 in 29 places, all below massif's threshold (1.00%)
+ n1: 108527641 0x57604D4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 108527641 0x5D2DCD2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 108527641 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 108527641 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 108527641 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 108527641 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 108527641 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 108527641 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 108527641 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 108527641 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 108527641 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 108527641 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 108527641 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 108527641 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 108527641 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 108527641 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 108527641 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n1: 108527641 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 108527641 0x119B68: NewGeco (inference.c:202)
+                    n1: 108527641 0x11F19B: mainGeco (main.c:709)
+                     n0: 108527641 0x11F447: main (main.c:781)
+ n1: 9352320 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 9352320 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 9352320 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 9352320 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 9352320 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 9352320 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 9352320 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 9352320 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 9352320 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 9352320 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 9352320 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 9352320 0x119B68: NewGeco (inference.c:202)
+             n1: 9352320 0x11F19B: mainGeco (main.c:709)
+              n0: 9352320 0x11F447: main (main.c:781)
+ n0: 6480906 in 2254 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=410960194
+mem_heap_B=524933225
+mem_heap_extra_B=1021991
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=500725365
+mem_heap_B=600428697
+mem_heap_extra_B=1021991
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=612959576
+mem_heap_B=694797017
+mem_heap_extra_B=1021959
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=669059389
+mem_heap_B=741982201
+mem_heap_extra_B=1021959
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=745405583
+mem_heap_B=954084975
+mem_heap_extra_B=1238305
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=805743234
+mem_heap_B=1182642039
+mem_heap_extra_B=1298137
+mem_stacks_B=0
+heap_tree=detailed
+n5: 1182642039 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 778256896 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 438518272 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 438518272 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 438518272 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 438518272 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 438518272 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 438518272 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 438518272 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 438518272 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 438518272 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 438518272 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 438518272 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+  n1: 339738624 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 339738624 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 339738624 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 339738624 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 339738624 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 339738624 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 339738624 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 339738624 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 339738624 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 339738624 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 224133173 0x57604D4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 224133173 0x5D2DCD2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 224133173 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 224133173 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 224133173 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 224133173 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 224133173 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 224133173 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 224133173 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 224133173 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 224133173 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 224133173 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 224133173 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 224133173 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 224133173 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 224133173 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 224133173 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 224133173 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 224133173 0x119D9A: NewGeco (inference.c:206)
+                    n1: 224133173 0x11F19B: mainGeco (main.c:709)
+                     n0: 224133173 0x11F447: main (main.c:781)
+                   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n3: 154768894 0x50A0969: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 100000001 0x5D2DD93: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 100000001 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 100000001 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 100000001 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 100000001 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 100000001 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 100000001 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 100000001 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 100000001 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 100000001 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 100000001 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 100000001 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 100000001 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 100000001 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 100000001 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 100000001 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 100000001 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 100000001 0x119D9A: NewGeco (inference.c:206)
+                    n1: 100000001 0x11F19B: mainGeco (main.c:709)
+                     n0: 100000001 0x11F447: main (main.c:781)
+                   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 54752377 0x5D2DF3F: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 54383044 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 54383044 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 54383044 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 54383044 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 54383044 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 54383044 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 54383044 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 54383044 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 54383044 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 54383044 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 54383044 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 54383044 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 54383044 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 54383044 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 54383044 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 54383044 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 54383044 0x119D9A: NewGeco (inference.c:206)
+                    n1: 54383044 0x11F19B: mainGeco (main.c:709)
+                     n0: 54383044 0x11F447: main (main.c:781)
+                   n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 369333 in 5 places, all below massif's threshold (1.00%)
+  n0: 16516 in 30 places, all below massif's threshold (1.00%)
+ n1: 13703696 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 13703696 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 13703696 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 13703696 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 13703696 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 13703696 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 13703696 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 13703696 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 13703696 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 13703696 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 13703696 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 13703696 0x119B68: NewGeco (inference.c:202)
+             n1: 13703696 0x11F19B: mainGeco (main.c:709)
+              n0: 13703696 0x11F447: main (main.c:781)
+ n0: 11779380 in 2298 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=879566673
+mem_heap_B=1455680920
+mem_heap_extra_B=1859648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=964143178
+mem_heap_B=1454916842
+mem_heap_extra_B=1753702
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1065418469
+mem_heap_B=1454863660
+mem_heap_extra_B=1724012
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1144153200
+mem_heap_B=1455012989
+mem_heap_extra_B=1748227
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1238168198
+mem_heap_B=1124754895
+mem_heap_extra_B=1659961
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1319781954
+mem_heap_B=1190908447
+mem_heap_extra_B=1671497
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1434847702
+mem_heap_B=1287635303
+mem_heap_extra_B=1671481
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1287635303 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1254048256 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 751518208 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 751518208 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 751518208 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 751518208 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 751518208 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 751518208 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 751518208 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 751518208 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 751518208 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 751518208 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n2: 751518208 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+             n1: 312999936 0x119D9A: NewGeco (inference.c:206)
+              n1: 312999936 0x11F19B: mainGeco (main.c:709)
+               n0: 312999936 0x11F447: main (main.c:781)
+  n1: 502530048 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 502530048 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 502530048 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 502530048 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 502530048 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 502530048 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 502530048 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 502530048 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 502530048 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n2: 502530048 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+            n1: 162791424 0x119D9A: NewGeco (inference.c:206)
+             n1: 162791424 0x11F19B: mainGeco (main.c:709)
+              n0: 162791424 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 23484944 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 23484944 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 23484944 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 23484944 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 23484944 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 23484944 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 23484944 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 23484944 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 23484944 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 23484944 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n2: 23484944 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 13703696 0x119B68: NewGeco (inference.c:202)
+             n1: 13703696 0x11F19B: mainGeco (main.c:709)
+              n0: 13703696 0x11F447: main (main.c:781)
+            n0: 9781248 in 1 place, below massif's threshold (1.00%)
+ n0: 10102103 in 2329 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=1533091502
+mem_heap_B=1370207743
+mem_heap_extra_B=1671321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1620087139
+mem_heap_B=1443342759
+mem_heap_extra_B=1671241
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1443342759 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1409761792 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 751518208 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 751518208 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 751518208 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 751518208 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 751518208 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 751518208 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 751518208 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 751518208 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 751518208 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 751518208 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n2: 751518208 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+             n1: 312999936 0x119D9A: NewGeco (inference.c:206)
+              n1: 312999936 0x11F19B: mainGeco (main.c:709)
+               n0: 312999936 0x11F447: main (main.c:781)
+  n1: 658243584 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 658243584 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 658243584 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 658243584 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 658243584 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 658243584 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 658243584 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 658243584 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 658243584 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n2: 658243584 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+            n1: 318504960 0x119D9A: NewGeco (inference.c:206)
+             n1: 318504960 0x11F19B: mainGeco (main.c:709)
+              n0: 318504960 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 23484944 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 23484944 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 23484944 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 23484944 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 23484944 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 23484944 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 23484944 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 23484944 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 23484944 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 23484944 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 23484944 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n0: 23484944 in 2 places, all below massif's threshold (1.00%)
+ n0: 10096023 in 2329 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=1709895427
+mem_heap_B=1518836911
+mem_heap_extra_B=1671097
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1780043589
+mem_heap_B=1577817191
+mem_heap_extra_B=1671049
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1577817191 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1544241664 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 792723456 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 792723456 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 792723456 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 792723456 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 792723456 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 792723456 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 792723456 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 792723456 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 792723456 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n2: 792723456 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 452984832 0x119D9A: NewGeco (inference.c:206)
+             n1: 452984832 0x11F19B: mainGeco (main.c:709)
+              n0: 452984832 0x11F447: main (main.c:781)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+  n1: 751518208 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 751518208 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 751518208 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 751518208 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 751518208 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 751518208 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 751518208 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 751518208 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 751518208 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 751518208 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n2: 751518208 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+             n1: 312999936 0x119D9A: NewGeco (inference.c:206)
+              n1: 312999936 0x11F19B: mainGeco (main.c:709)
+               n0: 312999936 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 23484944 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 23484944 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 23484944 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 23484944 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 23484944 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 23484944 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 23484944 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 23484944 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 23484944 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 23484944 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 23484944 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n0: 23484944 in 2 places, all below massif's threshold (1.00%)
+ n0: 10090583 in 2329 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=1897305338
+mem_heap_B=1676514247
+mem_heap_extra_B=1671065
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1676514247 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1642938880 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 891420672 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 891420672 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 891420672 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 891420672 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 891420672 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 891420672 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 891420672 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 891420672 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 891420672 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n2: 891420672 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 551682048 0x119D9A: NewGeco (inference.c:206)
+             n1: 551682048 0x11F19B: mainGeco (main.c:709)
+              n0: 551682048 0x11F447: main (main.c:781)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+  n1: 751518208 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 751518208 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 751518208 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 751518208 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 751518208 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 751518208 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 751518208 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 751518208 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 751518208 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 751518208 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n2: 751518208 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+             n1: 312999936 0x119D9A: NewGeco (inference.c:206)
+              n1: 312999936 0x11F19B: mainGeco (main.c:709)
+               n0: 312999936 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 23484944 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 23484944 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 23484944 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 23484944 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 23484944 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 23484944 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 23484944 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 23484944 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 23484944 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 23484944 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 23484944 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n0: 23484944 in 2 places, all below massif's threshold (1.00%)
+ n0: 10090423 in 2329 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=1994094340
+mem_heap_B=2328404022
+mem_heap_extra_B=1977506
+mem_stacks_B=0
+heap_tree=detailed
+n5: 2328404022 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1642938880 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 891420672 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 891420672 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 891420672 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 891420672 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 891420672 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 891420672 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 891420672 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 891420672 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 891420672 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n2: 891420672 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 551682048 0x119D9A: NewGeco (inference.c:206)
+             n1: 551682048 0x11F19B: mainGeco (main.c:709)
+              n0: 551682048 0x11F447: main (main.c:781)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+  n1: 751518208 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 751518208 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 751518208 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 751518208 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 751518208 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 751518208 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 751518208 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 751518208 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 751518208 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 751518208 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n2: 751518208 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+             n1: 312999936 0x119D9A: NewGeco (inference.c:206)
+              n1: 312999936 0x11F19B: mainGeco (main.c:709)
+               n0: 312999936 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 370864321 0x57604D4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 370864321 0x5D2DCD2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 370864321 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 370864321 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 370864321 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 370864321 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 370864321 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 370864321 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 370864321 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 370864321 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 370864321 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 370864321 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 370864321 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 370864321 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 370864321 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 370864321 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 370864321 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 370864321 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 370864321 0x119FCC: NewGeco (inference.c:210)
+                    n1: 370864321 0x11F19B: mainGeco (main.c:709)
+                     n0: 370864321 0x11F447: main (main.c:781)
+                   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n3: 276233654 0x50A0969: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 200000002 0x5D2DD93: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 200000002 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 200000002 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 200000002 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 200000002 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 200000002 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 200000002 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 200000002 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 200000002 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 200000002 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 200000002 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 200000002 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 200000002 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 200000002 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 200000002 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 200000002 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 200000002 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 200000002 0x119FCC: NewGeco (inference.c:210)
+                    n1: 200000002 0x11F19B: mainGeco (main.c:709)
+                     n0: 200000002 0x11F447: main (main.c:781)
+                   n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n2: 76181144 0x5D2DF3F: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 75617368 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 75617368 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 75617368 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 75617368 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 75617368 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 75617368 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 75617368 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 75617368 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 75617368 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 75617368 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 75617368 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 75617368 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 75617368 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 75617368 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 75617368 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 75617368 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 75617368 0x119FCC: NewGeco (inference.c:210)
+                    n1: 75617368 0x11F19B: mainGeco (main.c:709)
+                     n0: 75617368 0x11F447: main (main.c:781)
+                   n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 563776 in 5 places, all below massif's threshold (1.00%)
+  n0: 52508 in 30 places, all below massif's threshold (1.00%)
+ n1: 23484944 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 23484944 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 23484944 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 23484944 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 23484944 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 23484944 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 23484944 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 23484944 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 23484944 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 23484944 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 23484944 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n0: 23484944 in 2 places, all below massif's threshold (1.00%)
+ n0: 14882223 in 2328 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=2066334808
+mem_heap_B=2276185625
+mem_heap_extra_B=2388647
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2174741388
+mem_heap_B=2276015073
+mem_heap_extra_B=2346111
+mem_stacks_B=0
+heap_tree=detailed
+n5: 2276015073 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1642938880 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 891420672 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 891420672 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 891420672 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 891420672 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 891420672 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 891420672 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 891420672 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 891420672 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 891420672 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n2: 891420672 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 551682048 0x119D9A: NewGeco (inference.c:206)
+             n1: 551682048 0x11F19B: mainGeco (main.c:709)
+              n0: 551682048 0x11F447: main (main.c:781)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+  n1: 751518208 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 751518208 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 751518208 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 751518208 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 751518208 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 751518208 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 751518208 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 751518208 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 751518208 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 751518208 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n2: 751518208 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+             n1: 312999936 0x119D9A: NewGeco (inference.c:206)
+              n1: 312999936 0x11F19B: mainGeco (main.c:709)
+               n0: 312999936 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 320864320 0x57604D4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 320864320 0x5D2DCD2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 320864320 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 320864320 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 320864320 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 320864320 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 320864320 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 320864320 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 320864320 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 320864320 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 320864320 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 320864320 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 320864320 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 320864320 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 320864320 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 320864320 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 320864320 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 320864320 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 320864320 0x119FCC: NewGeco (inference.c:210)
+                    n1: 320864320 0x11F19B: mainGeco (main.c:709)
+                     n0: 320864320 0x11F447: main (main.c:781)
+                   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n3: 276235765 0x50A0969: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 200000002 0x5D2DD93: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 200000002 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 200000002 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 200000002 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 200000002 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 200000002 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 200000002 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 200000002 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 200000002 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 200000002 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 200000002 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 200000002 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 200000002 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 200000002 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 200000002 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 200000002 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 200000002 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 200000002 0x119FCC: NewGeco (inference.c:210)
+                    n1: 200000002 0x11F19B: mainGeco (main.c:709)
+                     n0: 200000002 0x11F447: main (main.c:781)
+                   n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n2: 76143827 0x5D2DF3F: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 75617368 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 75617368 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 75617368 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 75617368 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 75617368 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 75617368 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 75617368 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 75617368 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 75617368 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 75617368 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 75617368 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 75617368 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 75617368 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 75617368 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 75617368 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 75617368 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 75617368 0x119FCC: NewGeco (inference.c:210)
+                    n1: 75617368 0x11F19B: mainGeco (main.c:709)
+                     n0: 75617368 0x11F447: main (main.c:781)
+                   n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 526459 in 5 places, all below massif's threshold (1.00%)
+  n0: 91936 in 31 places, all below massif's threshold (1.00%)
+ n1: 23484944 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 23484944 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 23484944 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 23484944 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 23484944 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 23484944 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 23484944 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 23484944 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 23484944 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 23484944 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 23484944 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n0: 23484944 in 2 places, all below massif's threshold (1.00%)
+ n0: 12491164 in 2342 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=2246986000
+mem_heap_B=2275957907
+mem_heap_extra_B=2365309
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2301206774
+mem_heap_B=2275966851
+mem_heap_extra_B=2352557
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2396648370
+mem_heap_B=1791104459
+mem_heap_extra_B=2296341
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2463995893
+mem_heap_B=1847725643
+mem_heap_extra_B=2296309
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2542571975
+mem_heap_B=1913783371
+mem_heap_extra_B=2296341
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2621147604
+mem_heap_B=1979841099
+mem_heap_extra_B=2296341
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2739022663
+mem_heap_B=2078929963
+mem_heap_extra_B=2296357
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2078929963 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2038907392 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 1188691968 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 1188691968 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 1188691968 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 1188691968 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 1188691968 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 1188691968 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 1188691968 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 1188691968 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 1188691968 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n3: 1188691968 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 551682048 0x119D9A: NewGeco (inference.c:206)
+             n1: 551682048 0x11F19B: mainGeco (main.c:709)
+              n0: 551682048 0x11F447: main (main.c:781)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+            n1: 297271296 0x119FCC: NewGeco (inference.c:210)
+             n1: 297271296 0x11F19B: mainGeco (main.c:709)
+              n0: 297271296 0x11F447: main (main.c:781)
+  n1: 850215424 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 850215424 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 850215424 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 850215424 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 850215424 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 850215424 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 850215424 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 850215424 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 850215424 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 850215424 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n3: 850215424 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+             n1: 312999936 0x119D9A: NewGeco (inference.c:206)
+              n1: 312999936 0x11F19B: mainGeco (main.c:709)
+               n0: 312999936 0x11F447: main (main.c:781)
+             n1: 98697216 0x119FCC: NewGeco (inference.c:210)
+              n1: 98697216 0x11F19B: mainGeco (main.c:709)
+               n0: 98697216 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 26569232 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 26569232 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 26569232 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 26569232 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 26569232 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 26569232 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 26569232 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 26569232 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 26569232 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 26569232 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 26569232 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n0: 26569232 in 3 places, all below massif's threshold (1.00%)
+ n0: 13453339 in 2351 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=2856888444
+mem_heap_B=2178016555
+mem_heap_extra_B=2296421
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2974150282
+mem_heap_B=2276713611
+mem_heap_extra_B=2296421
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3018340201
+mem_heap_B=2546034938
+mem_heap_extra_B=2427622
+mem_stacks_B=0
+heap_tree=peak
+n5: 2546034938 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2236695040 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 1386479616 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 1386479616 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 1386479616 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 1386479616 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 1386479616 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 1386479616 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 1386479616 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 1386479616 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 1386479616 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n3: 1386479616 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 551682048 0x119D9A: NewGeco (inference.c:206)
+             n1: 551682048 0x11F19B: mainGeco (main.c:709)
+              n0: 551682048 0x11F447: main (main.c:781)
+            n1: 495058944 0x119FCC: NewGeco (inference.c:210)
+             n1: 495058944 0x11F19B: mainGeco (main.c:709)
+              n0: 495058944 0x11F447: main (main.c:781)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+  n1: 850215424 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 850215424 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 850215424 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 850215424 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 850215424 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 850215424 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 850215424 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 850215424 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 850215424 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 850215424 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n3: 850215424 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+             n1: 312999936 0x119D9A: NewGeco (inference.c:206)
+              n1: 312999936 0x11F19B: mainGeco (main.c:709)
+               n0: 312999936 0x11F447: main (main.c:781)
+             n1: 98697216 0x119FCC: NewGeco (inference.c:210)
+              n1: 98697216 0x11F19B: mainGeco (main.c:709)
+               n0: 98697216 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 136839193 0x57604D4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 136839193 0x5D2DCD2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 136839193 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 136839193 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 136839193 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 136839193 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 136839193 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 136839193 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 136839193 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 136839193 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 136839193 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 136839193 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 136839193 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 136839193 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 136839193 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 136839193 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 136839193 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 136839193 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 136839193 0x11A1FE: NewGeco (inference.c:214)
+                    n1: 136839193 0x11F19B: mainGeco (main.c:709)
+                     n0: 136839193 0x11F447: main (main.c:781)
+                   n0: 0 in 3 places, all below massif's threshold (1.00%)
+ n3: 128520547 0x50A0969: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 100000001 0x5D2DD93: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 100000001 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 100000001 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 100000001 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 100000001 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 100000001 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 100000001 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 100000001 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 100000001 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 100000001 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 100000001 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 100000001 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 100000001 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 100000001 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 100000001 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 100000001 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 100000001 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 100000001 0x11A1FE: NewGeco (inference.c:214)
+                    n1: 100000001 0x11F19B: mainGeco (main.c:709)
+                     n0: 100000001 0x11F447: main (main.c:781)
+                   n0: 0 in 3 places, all below massif's threshold (1.00%)
+  n2: 28432986 0x5D2DF3F: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 27794864 0x5D1DB5E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n2: 27794864 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 27790767 0x5D1F793: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 27790767 0x5D2CFF2: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 27790767 0x5D1E9B9: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 27790767 0x5D2C07B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 27790767 0x5ABF998: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 27790767 0x5ABFE6A: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 27790767 0x5AC00E6: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 27790767 0x5AC048E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 27790767 0x5115F6E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+              n1: 27790767 0x512FEAC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+               n1: 27790767 0x513032E: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                n1: 27790767 0x513922D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                 n1: 27790767 0x50ADB59: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                  n2: 27790767 0x50AE80D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+                   n1: 27790767 0x11A1FE: NewGeco (inference.c:214)
+                    n1: 27790767 0x11F19B: mainGeco (main.c:709)
+                     n0: 27790767 0x11F447: main (main.c:781)
+                   n0: 0 in 3 places, all below massif's threshold (1.00%)
+     n0: 4097 in 1 place, below massif's threshold (1.00%)
+   n0: 638122 in 5 places, all below massif's threshold (1.00%)
+  n0: 87560 in 32 places, all below massif's threshold (1.00%)
+ n1: 26569232 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 26569232 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 26569232 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 26569232 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 26569232 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 26569232 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 26569232 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 26569232 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 26569232 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 26569232 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 26569232 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n0: 26569232 in 3 places, all below massif's threshold (1.00%)
+ n0: 17410926 in 2349 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=3085672824
+mem_heap_B=2552139321
+mem_heap_extra_B=2601927
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3155546001
+mem_heap_B=2287534644
+mem_heap_extra_B=2543364
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3222894947
+mem_heap_B=2344155828
+mem_heap_extra_B=2543380
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3323918406
+mem_heap_B=2429087604
+mem_heap_extra_B=2543444
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3422909012
+mem_heap_B=2456530186
+mem_heap_extra_B=3569838
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3501968943
+mem_heap_B=2457133302
+mem_heap_extra_B=3569866
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3588751139
+mem_heap_B=2455493016
+mem_heap_extra_B=3059072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=3671432549
+mem_heap_B=2455495256
+mem_heap_extra_B=3059328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=3712774698
+mem_heap_B=2455501496
+mem_heap_extra_B=3059440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=3795456108
+mem_heap_B=2455503736
+mem_heap_extra_B=3059664
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2455503736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 2408972800 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 1558757376 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n2: 1558757376 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 1556348928 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 1556348928 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 1556348928 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 1556348928 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 1556348928 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 1556348928 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 1556348928 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n4: 1556348928 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 551682048 0x119D9A: NewGeco (inference.c:206)
+             n1: 551682048 0x11F19B: mainGeco (main.c:709)
+              n0: 551682048 0x11F447: main (main.c:781)
+            n1: 495058944 0x119FCC: NewGeco (inference.c:210)
+             n1: 495058944 0x11F19B: mainGeco (main.c:709)
+              n0: 495058944 0x11F447: main (main.c:781)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+            n1: 169869312 0x11A1FE: NewGeco (inference.c:214)
+             n1: 169869312 0x11F19B: mainGeco (main.c:709)
+              n0: 169869312 0x11F447: main (main.c:781)
+    n0: 2408448 in 1 place, below massif's threshold (1.00%)
+  n1: 850215424 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 850215424 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 850215424 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 850215424 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 850215424 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 850215424 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 850215424 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 850215424 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 850215424 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 850215424 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n3: 850215424 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 438518272 0x119B68: NewGeco (inference.c:202)
+              n1: 438518272 0x11F19B: mainGeco (main.c:709)
+               n0: 438518272 0x11F447: main (main.c:781)
+             n1: 312999936 0x119D9A: NewGeco (inference.c:206)
+              n1: 312999936 0x11F19B: mainGeco (main.c:709)
+               n0: 312999936 0x11F447: main (main.c:781)
+             n1: 98697216 0x119FCC: NewGeco (inference.c:210)
+              n1: 98697216 0x11F19B: mainGeco (main.c:709)
+               n0: 98697216 0x11F447: main (main.c:781)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 26569232 0x591EF3D: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 26569232 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 26569232 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 26569232 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 26569232 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 26569232 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 26569232 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 26569232 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 26569232 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 26569232 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 26569232 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n0: 26569232 in 3 places, all below massif's threshold (1.00%)
+ n0: 19961704 in 2467 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=3836796820
+mem_heap_B=2455504856
+mem_heap_extra_B=3059792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=3919478230
+mem_heap_B=2455507096
+mem_heap_extra_B=3060080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=4002168303
+mem_heap_B=2455518944
+mem_heap_extra_B=3060224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=4105755645
+mem_heap_B=1988421425
+mem_heap_extra_B=3060679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=4221858865
+mem_heap_B=1988436921
+mem_heap_extra_B=3062919
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=4263697687
+mem_heap_B=1988455439
+mem_heap_extra_B=3064769
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=4306126863
+mem_heap_B=1988477455
+mem_heap_extra_B=3066369
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=4362478556
+mem_heap_B=1988483167
+mem_heap_extra_B=3066737
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=4404352902
+mem_heap_B=1988475883
+mem_heap_extra_B=3065405
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=4447595491
+mem_heap_B=1988486923
+mem_heap_extra_B=3066509
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=4501380081
+mem_heap_B=1989023315
+mem_heap_extra_B=3067213
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=4542725043
+mem_heap_B=1989568099
+mem_heap_extra_B=3066933
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=4584285905
+mem_heap_B=1989984891
+mem_heap_extra_B=3068685
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=4640746961
+mem_heap_B=1990825491
+mem_heap_extra_B=3069917
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1990825491 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 1958244864 0x5915B43: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+  n1: 1558757376 0x5921014: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n2: 1558757376 0x534DA08: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 1556348928 0x5356DF1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n1: 1556348928 0x5990E53: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 1556348928 0x5991EA1: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 1556348928 0x59947F4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 1556348928 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 1556348928 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 1556348928 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n4: 1556348928 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n1: 551682048 0x119D9A: NewGeco (inference.c:206)
+             n1: 551682048 0x11F19B: mainGeco (main.c:709)
+              n0: 551682048 0x11F447: main (main.c:781)
+            n1: 495058944 0x119FCC: NewGeco (inference.c:210)
+             n1: 495058944 0x11F19B: mainGeco (main.c:709)
+              n0: 495058944 0x11F447: main (main.c:781)
+            n1: 339738624 0x119B68: NewGeco (inference.c:202)
+             n1: 339738624 0x11F19B: mainGeco (main.c:709)
+              n0: 339738624 0x11F447: main (main.c:781)
+            n1: 169869312 0x11A1FE: NewGeco (inference.c:214)
+             n1: 169869312 0x11F19B: mainGeco (main.c:709)
+              n0: 169869312 0x11F447: main (main.c:781)
+    n0: 2408448 in 1 place, below massif's threshold (1.00%)
+  n1: 399487488 0x591F144: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+   n1: 399487488 0x591E095: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+    n1: 399487488 0x591E5C5: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+     n2: 399487488 0x59B35B4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+      n1: 397230592 0x599A82B: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+       n1: 397230592 0x599E773: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+        n1: 397230592 0x59944E4: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+         n1: 397230592 0x599814C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+          n1: 397230592 0x513FFCC: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+           n1: 397230592 0x50A2D65: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+            n3: 397230592 0x50AE85C: ??? (in /usr/local/lib/libonnxruntime.so.1.19.2)
+             n1: 197394432 0x119D9A: NewGeco (inference.c:206)
+              n1: 197394432 0x11F19B: mainGeco (main.c:709)
+               n0: 197394432 0x11F447: main (main.c:781)
+             n1: 101138944 0x119B68: NewGeco (inference.c:202)
+              n1: 101138944 0x11F19B: mainGeco (main.c:709)
+               n0: 101138944 0x11F447: main (main.c:781)
+             n1: 98697216 0x119FCC: NewGeco (inference.c:210)
+              n1: 98697216 0x11F19B: mainGeco (main.c:709)
+               n0: 98697216 0x11F447: main (main.c:781)
+      n0: 2256896 in 1 place, below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 32580627 in 2484 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=4682277978
+mem_heap_B=1991446155
+mem_heap_extra_B=3069581
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=4724027019
+mem_heap_B=1992027755
+mem_heap_extra_B=3071341
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=4780686385
+mem_heap_B=1993007827
+mem_heap_extra_B=3072573
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=4822058895
+mem_heap_B=1993653795
+mem_heap_extra_B=3071933
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=4863989690
+mem_heap_B=1994349443
+mem_heap_extra_B=3073757
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=4920869055
+mem_heap_B=1995418179
+mem_heap_extra_B=3075005
+mem_stacks_B=0
+heap_tree=empty

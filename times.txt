@@ -1,0 +1,177 @@
+Timed Results: {'Create Geco': 3.20900, 'Encoder': 0.06900, 'Main Decoder': 0.07700, 'Past Decoder': 1.31700, 'All Decoders': 1.39400, 'GEC Total': 1.46300, }
+Timed Results: {'Create Geco': 3.18100, 'Encoder': 0.06700, 'Main Decoder': 0.04700, 'Past Decoder': 1.34700, 'All Decoders': 1.39400, 'GEC Total': 1.46100, }
+Timed Results: {'Create Geco': 3.22000, 'Encoder': 0.05200, 'Main Decoder': 0.06300, 'Past Decoder': 1.30500, 'All Decoders': 1.36800, 'GEC Total': 1.42100, }
+Timed Results: {'Create Geco': 3.20800, 'Encoder': 0.05200, 'Main Decoder': 0.04700, 'Past Decoder': 1.31900, 'All Decoders': 1.36700, 'GEC Total': 1.41900, }
+Timed Results: {'Encoder': 0.04100, 'Main Decoder': 0.04800, 'Past Decoder': 0.20500, 'All Decoders': 0.25300, 'GEC Total': 0.29500, }
+Timed Results: {'Create Geco': 3.22500, 'Encoder': 0.06400, 'Main Decoder': 0.04800, 'Past Decoder': 1.36900, 'All Decoders': 1.41700, 'GEC Total': 1.48100, }
+Timed Results: {'Encoder': 0.04200, 'Main Decoder': 0.04800, 'Past Decoder': 0.20700, 'All Decoders': 0.25500, 'GEC Total': 0.29700, }
+Timed Results: {'Create Geco': 3.22000, 'Encoder': 0.05300, 'Main Decoder': 0.04800, 'Past Decoder': 1.32000, 'All Decoders': 1.36800, 'GEC Total': 1.42100, }
+Timed Results: {'Encoder': 0.04100, 'Main Decoder': 0.04800, 'Past Decoder': 0.20600, 'All Decoders': 0.25400, 'GEC Total': 0.29600, }
+Timed Results: {'Create Geco': 3.20600, 'Encoder': 0.05300, 'Main Decoder': 0.04800, 'Past Decoder': 1.31900, 'All Decoders': 1.36700, 'GEC Total': 1.42000, }
+Timed Results: {'Create Geco': 3.17200, 'Encoder': 0.06200, 'Main Decoder': 0.04700, 'Past Decoder': 1.30000, 'All Decoders': 1.34800, 'GEC Total': 1.41000, }
+Timed Results: {'Create Geco': 3.22600, 'Encoder': 0.06200, 'Main Decoder': 0.04800, 'Past Decoder': 1.31600, 'All Decoders': 1.36400, 'GEC Total': 1.42600, }
+Timed Results: {'Create Geco': 3.22200, 'Encoder': 0.05400, 'Main Decoder': 0.04800, 'Past Decoder': 1.32700, 'All Decoders': 1.37500, 'GEC Total': 1.42900, }
+Timed Results: {'Create Geco': 3.19000, 'Encoder': 0.05200, 'Main Decoder': 0.07200, 'Past Decoder': 1.31500, 'All Decoders': 1.38800, 'GEC Total': 1.44000, }
+Timed Results: {'Create Geco': 3.16800, 'Encoder': 0.06200, 'Main Decoder': 0.07400, 'Past Decoder': 1.30400, 'All Decoders': 1.37800, 'GEC Total': 1.44000, }
+Timed Results: {'Load Config': 0.04100, 'Create Geco': 125.90200, 'GEC Preproc': 0.07800, 'Encoder': 74.47200, 'Main Decoder': 19.96800, 'Past Decoder': 204.90700, 'All Decoders': 224.88100, 'Get Max Tokens': 0.05900, 'GEC Postproc': 0.03200, 'GEC Total': 299.47200, }
+Timed Results: {'Load Config': 0.04100, 'Create Geco': 125.84300, 'GEC Preproc': 0.07800, 'Encoder': 74.63000, 'Main Decoder': 19.98800, 'Past Decoder': 204.68000, 'All Decoders': 224.67400, 'Get Max Tokens': 0.05400, 'GEC Postproc': 0.03200, 'GEC Total': 299.42400, }
+Timed Results: {'Load Config': 0.04100, 'Create Geco': 125.78200, 'GEC Preproc': 0.07800, 'Encoder': 74.64800, 'Main Decoder': 19.94500, 'Past Decoder': 204.79800, 'All Decoders': 224.74900, 'Get Max Tokens': 0.05500, 'GEC Postproc': 0.03200, 'GEC Total': 299.51700, }
+Timed Results: {'Load Config': 0.04200, 'Create Geco': 126.28700, 'GEC Preproc': 0.07800, 'Encoder': 74.50200, 'Main Decoder': 19.93800, 'Past Decoder': 204.95500, 'All Decoders': 224.89900, 'Get Max Tokens': 0.05500, 'GEC Postproc': 0.03200, 'GEC Total': 299.52000, }
+Timed Results: {'Create Geco': 2.92100, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.32400, 'All Decoders': 1.37100, 'GEC Total': 1.42700, }
+Timed Results: {'Create Geco': 2.87700, 'Encoder': 0.05200, 'Main Decoder': 0.04700, 'Past Decoder': 1.30000, 'All Decoders': 1.34700, 'GEC Total': 1.39900, }
+Timed Results: {'Create Geco': 2.87300, 'Encoder': 0.06000, 'Main Decoder': 0.04700, 'Past Decoder': 1.30400, 'All Decoders': 1.35100, 'GEC Total': 1.41100, }
+Timed Results: {'Create Geco': 2.90900, 'Encoder': 0.05400, 'Main Decoder': 0.04700, 'Past Decoder': 1.31400, 'All Decoders': 1.36100, 'GEC Total': 1.41500, }
+Timed Results: {'Create Geco': 2.92600, 'Encoder': 0.05700, 'Main Decoder': 0.04800, 'Past Decoder': 1.32600, 'All Decoders': 1.37400, 'GEC Total': 1.43100, }
+Timed Results: {'Create Geco': 2.90400, 'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.31600, 'All Decoders': 1.36400, 'GEC Total': 1.41700, }
+Timed Results: {'Create Geco': 2.90900, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.30100, 'All Decoders': 1.34800, 'GEC Total': 1.40400, }
+Timed Results: {'Create Geco': 2.49200, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.49100, 'All Decoders': 1.53800, 'GEC Total': 1.59500, 'Destroy Geco': 0.09200, }
+Timed Results: {'Create Geco': 2.42200, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.17400, 'All Decoders': 2.22500, 'GEC Total': 2.31200, 'Destroy Geco': 0.09100, }
+Timed Results: {'Create Geco': 2.89200, 'Encoder': 0.05600, 'Main Decoder': 0.04800, 'Past Decoder': 1.30700, 'All Decoders': 1.35500, 'GEC Total': 1.41100, }
+Timed Results: {'Create Geco': 2.52400, 'Encoder': 0.06600, 'Main Decoder': 0.04700, 'Past Decoder': 1.48800, 'All Decoders': 1.53500, 'GEC Total': 1.60100, 'Destroy Geco': 0.09700, }
+Timed Results: {'Create Geco': 2.49400, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.17300, 'All Decoders': 2.22400, 'GEC Total': 2.31000, 'Destroy Geco': 0.08400, }
+Timed Results: {'Create Geco': 2.47200, 'Encoder': 0.33900, 'Main Decoder': 0.09000, 'Past Decoder': 3.68400, 'All Decoders': 3.77400, 'GEC Total': 4.11400, 'Destroy Geco': 0.09500, }
+Timed Results: {'Create Geco': 2.47400, 'Encoder': 0.44100, 'Main Decoder': 0.10500, 'Past Decoder': 4.19100, 'All Decoders': 4.29600, 'GEC Total': 4.73800, 'Destroy Geco': 0.12300, }
+Timed Results: {'Create Geco': 2.90000, 'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.31600, 'All Decoders': 1.36300, 'GEC Total': 1.41700, }
+Timed Results: {'Create Geco': 2.49400, 'Encoder': 0.05600, 'Main Decoder': 0.04800, 'Past Decoder': 1.50700, 'All Decoders': 1.55500, 'GEC Total': 1.61200, 'Destroy Geco': 0.08800, }
+Timed Results: {'Create Geco': 2.52500, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.20200, 'All Decoders': 2.25400, 'GEC Total': 2.34000, 'Destroy Geco': 0.09100, }
+Timed Results: {'Create Geco': 2.47900, 'Encoder': 0.34300, 'Main Decoder': 0.09100, 'Past Decoder': 3.73500, 'All Decoders': 3.82600, 'GEC Total': 4.16900, 'Destroy Geco': 0.09200, }
+Timed Results: {'Create Geco': 2.51900, 'Encoder': 0.43900, 'Main Decoder': 0.10500, 'Past Decoder': 4.22300, 'All Decoders': 4.32800, 'GEC Total': 4.76800, 'Destroy Geco': 0.11900, }
+Timed Results: {'Create Geco': 2.88600, 'Encoder': 0.05700, 'Main Decoder': 0.04700, 'Past Decoder': 1.31700, 'All Decoders': 1.36400, 'GEC Total': 1.42100, }
+Timed Results: {'Create Geco': 2.41500, 'Encoder': 0.06700, 'Main Decoder': 0.04800, 'Past Decoder': 1.50900, 'All Decoders': 1.55700, 'GEC Total': 1.62400, 'Destroy Geco': 0.08700, }
+Timed Results: {'Create Geco': 2.31500, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.20900, 'All Decoders': 2.26200, 'GEC Total': 2.34800, 'Destroy Geco': 0.07200, }
+Timed Results: {'Create Geco': 2.39800, 'Encoder': 0.34300, 'Main Decoder': 0.09100, 'Past Decoder': 3.72800, 'All Decoders': 3.81900, 'GEC Total': 4.16200, 'Destroy Geco': 0.09300, }
+Timed Results: {'Create Geco': 2.52500, 'Encoder': 0.44400, 'Main Decoder': 0.10500, 'Past Decoder': 4.22300, 'All Decoders': 4.32800, 'GEC Total': 4.77200, 'Destroy Geco': 0.06800, }
+Timed Results: {'Create Geco': 2.91900, 'Encoder': 0.05600, 'Main Decoder': 0.04800, 'Past Decoder': 1.31500, 'All Decoders': 1.36300, 'GEC Total': 1.41900, }
+Timed Results: {'Create Geco': 2.19500, 'Encoder': 0.06400, 'Main Decoder': 0.04800, 'Past Decoder': 1.50300, 'All Decoders': 1.55100, 'GEC Total': 1.61600, 'Destroy Geco': 0.06700, }
+Timed Results: {'Create Geco': 2.26300, 'Encoder': 0.08700, 'Main Decoder': 0.05200, 'Past Decoder': 2.20000, 'All Decoders': 2.25200, 'GEC Total': 2.34000, 'Destroy Geco': 0.06300, }
+Timed Results: {'Create Geco': 2.24400, 'Encoder': 0.34800, 'Main Decoder': 0.09200, 'Past Decoder': 3.75900, 'All Decoders': 3.85000, 'GEC Total': 4.19900, 'Destroy Geco': 0.07200, }
+Timed Results: {'Create Geco': 2.26800, 'Encoder': 0.44600, 'Main Decoder': 0.10600, 'Past Decoder': 4.24200, 'All Decoders': 4.34800, 'GEC Total': 4.79500, 'Destroy Geco': 0.09800, }
+Timed Results: {'Create Geco': 2.87700, 'Encoder': 0.06200, 'Main Decoder': 0.04700, 'Past Decoder': 1.30100, 'All Decoders': 1.34800, 'GEC Total': 1.41000, }
+Timed Results: {'Create Geco': 2.11900, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.48400, 'All Decoders': 1.53100, 'GEC Total': 1.58700, 'Destroy Geco': 0.05000, }
+Timed Results: {'Create Geco': 2.16300, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.16900, 'All Decoders': 2.22100, 'GEC Total': 2.30700, 'Destroy Geco': 0.06400, }
+Timed Results: {'Create Geco': 2.17000, 'Encoder': 0.34100, 'Main Decoder': 0.09000, 'Past Decoder': 3.68500, 'All Decoders': 3.77500, 'GEC Total': 4.11600, 'Destroy Geco': 0.06800, }
+Timed Results: {'Create Geco': 2.15200, 'Encoder': 0.44000, 'Main Decoder': 0.10500, 'Past Decoder': 4.16900, 'All Decoders': 4.27400, 'GEC Total': 4.71500, 'Destroy Geco': 0.09600, }
+Timed Results: {'Create Geco': 2.87900, 'Encoder': 0.05400, 'Main Decoder': 0.04700, 'Past Decoder': 1.30000, 'All Decoders': 1.34700, 'GEC Total': 1.40100, }
+Timed Results: {'Create Geco': 2.23400, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.49100, 'All Decoders': 1.53800, 'GEC Total': 1.59400, 'Destroy Geco': 0.07100, }
+Timed Results: {'Create Geco': 2.18300, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.17700, 'All Decoders': 2.22800, 'GEC Total': 2.31400, 'Destroy Geco': 0.07300, }
+Timed Results: {'Create Geco': 2.12300, 'Encoder': 0.34700, 'Main Decoder': 0.09000, 'Past Decoder': 3.77100, 'All Decoders': 3.86200, 'GEC Total': 4.21000, 'Destroy Geco': 0.07300, }
+Timed Results: {'Create Geco': 1.20900, 'Encoder': 0.43800, 'Main Decoder': 0.10500, 'Past Decoder': 4.00700, 'All Decoders': 4.11200, 'GEC Total': 4.55000, 'Destroy Geco': 0.02300, }
+Timed Results: {'Create Geco': 2.86600, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.30100, 'All Decoders': 1.34800, 'GEC Total': 1.40500, }
+Timed Results: {'Create Geco': 2.37600, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.48900, 'All Decoders': 1.53600, 'GEC Total': 1.59300, 'Destroy Geco': 0.08700, }
+Timed Results: {'Create Geco': 2.56400, 'Encoder': 0.09600, 'Main Decoder': 0.05200, 'Past Decoder': 2.18000, 'All Decoders': 2.23200, 'GEC Total': 2.32800, 'Destroy Geco': 0.09200, }
+Timed Results: {'Create Geco': 2.51600, 'Encoder': 0.33800, 'Main Decoder': 0.09000, 'Past Decoder': 3.69700, 'All Decoders': 3.78600, 'GEC Total': 4.12500, 'Destroy Geco': 0.08900, }
+Timed Results: {'Create Geco': 2.49400, 'Encoder': 0.43700, 'Main Decoder': 0.10400, 'Past Decoder': 4.16800, 'All Decoders': 4.27200, 'GEC Total': 4.71000, 'Destroy Geco': 0.06000, }
+Timed Results: {'Create Geco': 2.90400, 'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.31700, 'All Decoders': 1.36500, 'GEC Total': 1.41800, }
+Timed Results: {'Create Geco': 2.11100, 'Encoder': 0.05600, 'Main Decoder': 0.04800, 'Past Decoder': 1.50600, 'All Decoders': 1.55400, 'GEC Total': 1.61100, 'Destroy Geco': 0.06000, }
+Timed Results: {'Create Geco': 2.10400, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.19000, 'All Decoders': 2.24200, 'GEC Total': 2.32800, 'Destroy Geco': 0.06600, }
+Timed Results: {'Create Geco': 2.09400, 'Encoder': 0.34000, 'Main Decoder': 0.09100, 'Past Decoder': 3.72000, 'All Decoders': 3.81100, 'GEC Total': 4.15200, 'Destroy Geco': 0.06500, }
+Timed Results: {'Create Geco': 2.14000, 'Encoder': 0.43800, 'Main Decoder': 0.10600, 'Past Decoder': 4.19300, 'All Decoders': 4.29900, 'GEC Total': 4.73700, 'Destroy Geco': 0.05000, }
+Timed Results: {'Create Geco': 2.89000, 'Encoder': 0.05400, 'Main Decoder': 0.04700, 'Past Decoder': 1.30200, 'All Decoders': 1.34900, 'GEC Total': 1.40300, }
+Timed Results: {'Create Geco': 2.09600, 'Encoder': 0.05600, 'Main Decoder': 0.04800, 'Past Decoder': 1.49000, 'All Decoders': 1.53800, 'GEC Total': 1.59400, 'Destroy Geco': 0.05900, }
+Timed Results: {'Create Geco': 2.09400, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.17700, 'All Decoders': 2.22900, 'GEC Total': 2.31500, 'Destroy Geco': 0.06200, }
+Timed Results: {'Create Geco': 2.05300, 'Encoder': 0.34100, 'Main Decoder': 0.09000, 'Past Decoder': 3.69500, 'All Decoders': 3.78500, 'GEC Total': 4.12700, 'Destroy Geco': 0.06400, }
+Timed Results: {'Create Geco': 2.08100, 'Encoder': 0.43300, 'Main Decoder': 0.10400, 'Past Decoder': 4.15000, 'All Decoders': 4.25400, 'GEC Total': 4.68700, 'Destroy Geco': 0.09000, }
+Timed Results: {'Create Geco': 2.89700, 'Encoder': 0.06100, 'Main Decoder': 0.04700, 'Past Decoder': 1.31600, 'All Decoders': 1.36300, 'GEC Total': 1.42500, }
+Timed Results: {'Create Geco': 2.42800, 'Encoder': 0.05700, 'Main Decoder': 0.04800, 'Past Decoder': 1.50400, 'All Decoders': 1.55200, 'GEC Total': 1.60800, 'Destroy Geco': 0.07900, }
+Timed Results: {'Create Geco': 2.38500, 'Encoder': 0.08500, 'Main Decoder': 0.05200, 'Past Decoder': 2.20100, 'All Decoders': 2.25300, 'GEC Total': 2.33800, 'Destroy Geco': 0.08200, }
+Timed Results: {'Create Geco': 2.50300, 'Encoder': 0.33900, 'Main Decoder': 0.09100, 'Past Decoder': 3.73800, 'All Decoders': 3.82900, 'GEC Total': 4.16900, 'Destroy Geco': 0.09200, }
+Timed Results: {'Create Geco': 2.40500, 'Encoder': 0.44000, 'Main Decoder': 0.10600, 'Past Decoder': 4.21600, 'All Decoders': 4.32200, 'GEC Total': 4.76300, 'Destroy Geco': 0.11800, }
+Timed Results: {'Create Geco': 2.88000, 'Encoder': 0.05500, 'Main Decoder': 0.04700, 'Past Decoder': 1.30500, 'All Decoders': 1.35200, 'GEC Total': 1.40800, }
+Timed Results: {'Create Geco': 2.42600, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.49000, 'All Decoders': 1.53800, 'GEC Total': 1.59400, 'Destroy Geco': 0.08800, }
+Timed Results: {'Create Geco': 2.36600, 'Encoder': 0.08400, 'Main Decoder': 0.05200, 'Past Decoder': 2.17700, 'All Decoders': 2.22900, 'GEC Total': 2.31400, 'Destroy Geco': 0.09400, }
+Timed Results: {'Create Geco': 2.39100, 'Encoder': 0.33200, 'Main Decoder': 0.08900, 'Past Decoder': 3.69400, 'All Decoders': 3.78400, 'GEC Total': 4.11600, 'Destroy Geco': 0.09400, }
+Timed Results: {'Create Geco': 2.30400, 'Encoder': 0.43800, 'Main Decoder': 0.10500, 'Past Decoder': 4.19200, 'All Decoders': 4.29600, 'GEC Total': 4.73500, 'Destroy Geco': 0.11300, }
+Timed Results: {'Create Geco': 2.87300, 'Encoder': 0.05700, 'Main Decoder': 0.04700, 'Past Decoder': 1.30000, 'All Decoders': 1.34600, 'GEC Total': 1.40300, }
+Timed Results: {'Create Geco': 2.38700, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.49000, 'All Decoders': 1.53700, 'GEC Total': 1.59300, 'Destroy Geco': 0.08900, }
+Timed Results: {'Create Geco': 2.33400, 'Encoder': 0.08500, 'Main Decoder': 0.05200, 'Past Decoder': 2.18100, 'All Decoders': 2.23300, 'GEC Total': 2.31900, 'Destroy Geco': 0.08300, }
+Timed Results: {'Create Geco': 2.33300, 'Encoder': 0.34100, 'Main Decoder': 0.09000, 'Past Decoder': 3.69200, 'All Decoders': 3.78200, 'GEC Total': 4.12300, 'Destroy Geco': 0.08400, }
+Timed Results: {'Create Geco': 1.55500, 'Encoder': 0.44100, 'Main Decoder': 0.10500, 'Past Decoder': 4.18000, 'All Decoders': 4.28500, 'GEC Total': 4.72600, 'Destroy Geco': 0.06100, }
+Timed Results: {'Create Geco': 2.87100, 'Encoder': 0.05500, 'Main Decoder': 0.04700, 'Past Decoder': 1.30000, 'All Decoders': 1.34700, 'GEC Total': 1.40200, }
+Timed Results: {'Encoder': 0.04100, 'Main Decoder': 0.04700, 'Past Decoder': 0.20200, 'All Decoders': 0.24900, 'GEC Total': 0.29100, }
+Timed Results: {'Create Geco': 2.89700, 'Encoder': 0.05400, 'Main Decoder': 0.04700, 'Past Decoder': 1.31900, 'All Decoders': 1.36600, 'GEC Total': 1.42000, }
+Timed Results: {'Create Geco': 2.13400, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.50700, 'All Decoders': 1.55400, 'GEC Total': 1.61100, 'Destroy Geco': 0.05900, }
+Timed Results: {'Create Geco': 2.12100, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.20000, 'All Decoders': 2.25200, 'GEC Total': 2.33900, 'Destroy Geco': 0.06400, }
+Timed Results: {'Create Geco': 2.11600, 'Encoder': 0.34200, 'Main Decoder': 0.09100, 'Past Decoder': 3.72800, 'All Decoders': 3.81800, 'GEC Total': 4.16100, 'Destroy Geco': 0.06400, }
+Timed Results: {'Create Geco': 1.72300, 'Encoder': 0.44000, 'Main Decoder': 0.10600, 'Past Decoder': 4.07400, 'All Decoders': 4.18000, 'GEC Total': 4.62000, 'Destroy Geco': 0.05000, }
+Timed Results: {'Create Geco': 3.20100, 'Encoder': 0.06200, 'Main Decoder': 0.04700, 'Past Decoder': 1.31400, 'All Decoders': 1.36200, 'GEC Total': 1.42500, }
+Timed Results: {'Create Geco': 2.40700, 'Encoder': 0.05600, 'Main Decoder': 0.04900, 'Past Decoder': 1.50900, 'All Decoders': 1.55800, 'GEC Total': 1.61500, 'Destroy Geco': 0.10600, }
+Timed Results: {'Create Geco': 2.17100, 'Encoder': 0.08600, 'Main Decoder': 0.06700, 'Past Decoder': 2.21900, 'All Decoders': 2.28600, 'GEC Total': 2.37200, 'Destroy Geco': 0.10200, }
+Timed Results: {'Create Geco': 2.12000, 'Encoder': 0.34000, 'Main Decoder': 0.09100, 'Past Decoder': 3.70700, 'All Decoders': 3.79800, 'GEC Total': 4.13800, 'Destroy Geco': 0.07200, }
+Timed Results: {'Create Geco': 2.01000, 'Encoder': 0.43700, 'Main Decoder': 0.11500, 'Past Decoder': 4.19800, 'All Decoders': 4.31300, 'GEC Total': 4.75100, 'Destroy Geco': 0.11000, }
+Timed Results: {'Create Geco': 3.20100, 'Encoder': 0.06500, 'Main Decoder': 0.05200, 'Past Decoder': 1.30800, 'All Decoders': 1.36000, 'GEC Total': 1.42500, }
+Timed Results: {'Encoder': 0.04100, 'Main Decoder': 0.04700, 'Past Decoder': 0.20300, 'All Decoders': 0.25100, 'GEC Total': 0.29300, }
+Timed Results: {'Create Geco': 3.23600, 'Encoder': 0.05400, 'Main Decoder': 0.07100, 'Past Decoder': 1.33900, 'All Decoders': 1.41000, 'GEC Total': 1.46400, }
+Timed Results: {'Encoder': 0.04100, 'Main Decoder': 0.04800, 'Past Decoder': 0.20700, 'All Decoders': 0.25600, 'GEC Total': 0.29800, }
+Timed Results: {'Create Geco': 3.25200, 'Encoder': 0.05400, 'Main Decoder': 0.04700, 'Past Decoder': 1.34000, 'All Decoders': 1.38700, 'GEC Total': 1.44100, }
+Timed Results: {'Encoder': 0.04200, 'Main Decoder': 0.04800, 'Past Decoder': 0.20500, 'All Decoders': 0.25400, 'GEC Total': 0.29600, }
+Timed Results: {'Create Geco': 3.17800, 'Encoder': 0.05200, 'Main Decoder': 0.04700, 'Past Decoder': 1.33900, 'All Decoders': 1.38700, 'GEC Total': 1.43900, }
+Timed Results: {'Encoder': 0.04100, 'Main Decoder': 0.04700, 'Past Decoder': 0.20300, 'All Decoders': 0.25000, 'GEC Total': 0.29200, }
+Timed Results: {'Load Config': 0.04000, 'Create Geco': 125.38100, 'GEC Preproc': 0.07700, 'Encoder': 74.57600, 'Main Decoder': 20.42900, 'Past Decoder': 206.07700, 'All Decoders': 226.51100, 'Get Max Tokens': 0.06500, 'GEC Postproc': 0.03200, 'GEC Total': 301.20600, }
+Timed Results: {'GEC Preproc': 0.02100, 'Encoder': 53.09100, 'Main Decoder': 24.80700, 'Past Decoder': 71.57000, 'All Decoders': 96.38200, 'Get Max Tokens': 0.03300, 'GEC Postproc': 0.01200, 'GEC Total': 149.50900, }
+Timed Results: {'Create Geco': 3.56700, 'Encoder': 0.05400, 'Main Decoder': 0.04700, 'Past Decoder': 1.31800, 'All Decoders': 1.36600, 'GEC Total': 1.42000, }
+Timed Results: {'Encoder': 0.04200, 'Main Decoder': 0.04800, 'Past Decoder': 0.20400, 'All Decoders': 0.25100, 'GEC Total': 0.29400, }
+Timed Results: {'Encoder': 0.17500, 'Main Decoder': 0.06700, 'Past Decoder': 1.05500, 'All Decoders': 1.12300, 'GEC Total': 1.29800, }
+Timed Results: {'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.30300, 'All Decoders': 1.35000, 'GEC Total': 1.40300, }
+Timed Results: {'Create Geco': 2.88900, 'Encoder': 0.05600, 'Main Decoder': 0.04700, 'Past Decoder': 1.31500, 'All Decoders': 1.36200, 'GEC Total': 1.41800, }
+Timed Results: {'Encoder': 0.04200, 'Main Decoder': 0.04800, 'Past Decoder': 0.20500, 'All Decoders': 0.25400, 'GEC Total': 0.29600, }
+Timed Results: {'Encoder': 0.16700, 'Main Decoder': 0.06700, 'Past Decoder': 1.06100, 'All Decoders': 1.12900, 'GEC Total': 1.29600, }
+Timed Results: {'Encoder': 0.05000, 'Main Decoder': 0.04700, 'Past Decoder': 1.31500, 'All Decoders': 1.36200, 'GEC Total': 1.41300, }
+Timed Results: {'Create Geco': 2.76200, 'Encoder': 0.05200, 'Main Decoder': 0.04700, 'Past Decoder': 1.30300, 'All Decoders': 1.35000, 'GEC Total': 1.40300, }
+Timed Results: {'Encoder': 0.04300, 'Main Decoder': 0.04900, 'Past Decoder': 0.20500, 'All Decoders': 0.25400, 'GEC Total': 0.29700, }
+Timed Results: {'Encoder': 0.16800, 'Main Decoder': 0.06700, 'Past Decoder': 1.05400, 'All Decoders': 1.12100, 'GEC Total': 1.29000, }
+Timed Results: {'Encoder': 0.05200, 'Main Decoder': 0.04700, 'Past Decoder': 1.30400, 'All Decoders': 1.35100, 'GEC Total': 1.40400, }
+Timed Results: {'Create Geco': 2.77900, 'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.32100, 'All Decoders': 1.36800, 'GEC Total': 1.42100, }
+Timed Results: {'Create Geco': 2.84100, 'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.32100, 'All Decoders': 1.36900, 'GEC Total': 1.42200, }
+Timed Results: {'Encoder': 0.04400, 'Main Decoder': 0.04800, 'Past Decoder': 0.20600, 'All Decoders': 0.25400, 'GEC Total': 0.29800, }
+Timed Results: {'Create Geco': 2.89800, 'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.32200, 'All Decoders': 1.37000, 'GEC Total': 1.42200, }
+Timed Results: {'Encoder': 0.04200, 'Main Decoder': 0.04700, 'Past Decoder': 0.20600, 'All Decoders': 0.25300, 'GEC Total': 0.29500, }
+Timed Results: {'Create Geco': 2.87700, 'Encoder': 0.05200, 'Main Decoder': 0.04700, 'Past Decoder': 1.30300, 'All Decoders': 1.35000, 'GEC Total': 1.40300, }
+Timed Results: {'Encoder': 0.04300, 'Main Decoder': 0.04800, 'Past Decoder': 0.20300, 'All Decoders': 0.25000, 'GEC Total': 0.29300, }
+Timed Results: {'Create Geco': 2.82100, 'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.30400, 'All Decoders': 1.35100, 'GEC Total': 1.40400, }
+Timed Results: {'Encoder': 0.04300, 'Main Decoder': 0.04800, 'Past Decoder': 0.20300, 'All Decoders': 0.25100, 'GEC Total': 0.29400, }
+Timed Results: {'Create Geco': 2.86700, 'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.30000, 'All Decoders': 1.34700, 'GEC Total': 1.40000, }
+Timed Results: {'Encoder': 0.04100, 'Main Decoder': 0.04700, 'Past Decoder': 0.20300, 'All Decoders': 0.25000, 'GEC Total': 0.29200, }
+Timed Results: {'Create Geco': 2.72500, 'Encoder': 0.03700, 'Main Decoder': 0.04600, 'Past Decoder': 0.19700, 'All Decoders': 0.24200, 'GEC Total': 0.27900, }
+Timed Results: {'Create Geco': 2.86200, 'Gibb Preproc': 0.09200, 'Gibb Model Run': 0.04600, 'Gibberish Total': 0.13800, }
+Timed Results: {'Create Geco': 2.85900, 'Gibb Preproc': 0.09300, 'Gibb Model Run': 0.04600, 'Gibberish Total': 0.13900, }
+Timed Results: {'Create Geco': 2.93500, 'Gibb Preproc': 0.09500, 'Gibb Model Run': 0.04600, 'Gibberish Total': 0.14100, }
+Timed Results: {'Create Geco': 2.78100, 'Gibb Preproc': 0.09300, 'Gibb Model Run': 0.02500, 'Gibberish Total': 0.11900, }
+Timed Results: {'Create Geco': 2.75100, 'Gibb Preproc': 0.09200, 'Gibb Model Run': 0.02500, 'Gibberish Total': 0.11800, }
+Timed Results: {'Create Geco': 2.92400, 'Encoder': 0.11600, 'Main Decoder': 0.05700, 'Past Decoder': 3.98900, 'All Decoders': 4.04500, 'GEC Total': 4.16200, }
+Timed Results: {'Create Geco': 2.90100, 'Encoder': 0.11500, 'Main Decoder': 0.05600, 'Past Decoder': 3.96200, 'All Decoders': 4.01800, 'GEC Total': 4.13400, }
+Timed Results: {'Create Geco': 2.91200, 'Gibb Preproc': 0.09200, 'Gibb Model Run': 0.02500, 'Gibberish Total': 0.11800, }
+Timed Results: {'Create Geco': 2.78300, 'Encoder': 0.11600, 'Main Decoder': 0.05700, 'Past Decoder': 3.99400, 'All Decoders': 4.05100, 'GEC Total': 4.16700, }
+Timed Results: {'Create Geco': 2.82100, 'Encoder': 0.11400, 'Main Decoder': 0.05600, 'Past Decoder': 3.91700, 'All Decoders': 3.97300, 'GEC Total': 4.08700, }
+Timed Results: {'Create Geco': 3.28000, 'Encoder': 0.11700, 'Main Decoder': 0.05600, 'Past Decoder': 3.96000, 'All Decoders': 4.01700, 'GEC Total': 4.13400, }
+Timed Results: {'Create Geco': 3.30600, 'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.32100, 'All Decoders': 1.36800, 'GEC Total': 1.42100, }
+Timed Results: {'Create Geco': 2.21400, 'Encoder': 0.05600, 'Main Decoder': 0.04800, 'Past Decoder': 1.51300, 'All Decoders': 1.56000, 'GEC Total': 1.61700, 'Destroy Geco': 0.07500, }
+Timed Results: {'Create Geco': 2.13500, 'Encoder': 0.08600, 'Main Decoder': 0.05200, 'Past Decoder': 2.21500, 'All Decoders': 2.26800, 'GEC Total': 2.35400, 'Destroy Geco': 0.06800, }
+Timed Results: {'Create Geco': 2.05700, 'Encoder': 0.34200, 'Main Decoder': 0.09100, 'Past Decoder': 3.71100, 'All Decoders': 3.80200, 'GEC Total': 4.14500, 'Destroy Geco': 0.06900, }
+Timed Results: {'Create Geco': 2.15000, 'Encoder': 0.43900, 'Main Decoder': 0.10600, 'Past Decoder': 4.20300, 'All Decoders': 4.30800, 'GEC Total': 4.74800, 'Destroy Geco': 0.09300, }
+Timed Results: {'Create Geco': 2.87000, 'Encoder': 0.04200, 'Main Decoder': 0.04700, 'Past Decoder': 0.20200, 'All Decoders': 0.24900, 'GEC Total': 0.29100, }
+Timed Results: {'Encoder': 0.16800, 'Main Decoder': 0.06700, 'Past Decoder': 1.04800, 'All Decoders': 1.11500, 'GEC Total': 1.28300, }
+Timed Results: {'Create Geco': 2.94100, 'Encoder': 0.04300, 'Main Decoder': 0.04800, 'Past Decoder': 0.20700, 'All Decoders': 0.25500, 'GEC Total': 0.29800, }
+Timed Results: {'Encoder': 0.17300, 'Main Decoder': 0.06800, 'Past Decoder': 1.07800, 'All Decoders': 1.14700, 'GEC Total': 1.32000, }
+Timed Results: {'Encoder': 0.05600, 'Main Decoder': 0.04800, 'Past Decoder': 1.33300, 'All Decoders': 1.38100, 'GEC Total': 1.43700, }
+Timed Results: {'Encoder': 0.63600, 'Main Decoder': 0.14700, 'Past Decoder': 2.32200, 'All Decoders': 2.46900, 'Get Max Tokens': 0.01200, 'GEC Postproc': 0.00100, 'GEC Total': 3.10600, }
+Timed Results: {'Encoder': 0.43100, 'Main Decoder': 0.11200, 'Past Decoder': 2.19700, 'All Decoders': 2.30900, 'Get Max Tokens': 0.00500, 'GEC Total': 2.74100, }
+Timed Results: {'GEC Preproc': 0.00100, 'Encoder': 1.06600, 'Main Decoder': 0.19800, 'Past Decoder': 5.93600, 'All Decoders': 6.13500, 'Get Max Tokens': 0.05500, 'GEC Postproc': 0.00100, 'GEC Total': 7.20300, }
+Timed Results: {'Create Geco': 2.86000, 'Encoder': 0.04300, 'Main Decoder': 0.04800, 'Past Decoder': 0.20700, 'All Decoders': 0.25500, 'GEC Total': 0.29800, }
+Timed Results: {'Encoder': 0.16900, 'Main Decoder': 0.06800, 'Past Decoder': 1.07300, 'All Decoders': 1.14200, 'GEC Total': 1.31200, }
+Timed Results: {'Encoder': 0.05400, 'Main Decoder': 0.04800, 'Past Decoder': 1.32800, 'All Decoders': 1.37600, 'GEC Total': 1.43100, }
+Timed Results: {'Create Geco': 2.87800, 'Encoder': 0.04200, 'Main Decoder': 0.04700, 'Past Decoder': 0.20200, 'All Decoders': 0.24900, 'GEC Total': 0.29100, }
+Timed Results: {'Encoder': 0.16800, 'Main Decoder': 0.06700, 'Past Decoder': 1.05100, 'All Decoders': 1.11800, 'GEC Total': 1.28700, }
+Timed Results: {'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.30000, 'All Decoders': 1.34700, 'GEC Total': 1.40100, }
+Timed Results: {'Create Geco': 2.91100, 'Encoder': 0.04300, 'Main Decoder': 0.04800, 'Past Decoder': 0.20400, 'All Decoders': 0.25200, 'GEC Total': 0.29500, }
+Timed Results: {'Encoder': 0.17300, 'Main Decoder': 0.06800, 'Past Decoder': 1.06500, 'All Decoders': 1.13300, 'GEC Total': 1.30700, }
+Timed Results: {'Encoder': 0.05300, 'Main Decoder': 0.04800, 'Past Decoder': 1.31800, 'All Decoders': 1.36600, 'GEC Total': 1.41900, }
+Timed Results: {'Create Geco': 2.78700, 'Encoder': 0.04300, 'Main Decoder': 0.04800, 'Past Decoder': 0.20600, 'All Decoders': 0.25400, 'GEC Total': 0.29800, }
+Timed Results: {'Encoder': 0.17200, 'Main Decoder': 0.06800, 'Past Decoder': 1.07800, 'All Decoders': 1.14600, 'GEC Total': 1.31900, }
+Timed Results: {'Encoder': 0.05500, 'Main Decoder': 0.04800, 'Past Decoder': 1.32800, 'All Decoders': 1.37600, 'GEC Total': 1.43200, }
+Timed Results: {'Load Config': 0.01700, 'Create Geco': 10.93900, 'GEC Preproc': 0.03300, 'Encoder': 47.41400, 'Main Decoder': 21.68700, 'Past Decoder': 60.78500, 'All Decoders': 82.47400, 'Get Max Tokens': 0.00700, 'GEC Postproc': 0.01300, 'GEC Total': 129.93600, }
+Timed Results: {'Create Geco': 2.75800, 'Encoder': 0.04200, 'Main Decoder': 0.04700, 'Past Decoder': 0.20200, 'All Decoders': 0.25000, 'GEC Total': 0.29200, }
+Timed Results: {'Create Geco': 2.76200, 'Encoder': 0.04300, 'Main Decoder': 0.04800, 'Past Decoder': 0.20300, 'All Decoders': 0.25100, 'GEC Total': 0.29400, }
+Timed Results: {'Encoder': 0.16800, 'Main Decoder': 0.06700, 'Past Decoder': 1.05800, 'All Decoders': 1.12600, 'GEC Total': 1.29400, }
+Timed Results: {'Encoder': 0.05300, 'Main Decoder': 0.04700, 'Past Decoder': 1.30700, 'All Decoders': 1.35500, 'GEC Total': 1.40800, }
+Timed Results: {'Encoder': 0.62100, 'Main Decoder': 0.14400, 'Past Decoder': 2.26400, 'All Decoders': 2.40700, 'Get Max Tokens': 0.01200, 'GEC Postproc': 0.00100, 'GEC Total': 3.03000, }
+Timed Results: {'Encoder': 0.42100, 'Main Decoder': 0.11000, 'Past Decoder': 2.15200, 'All Decoders': 2.26100, 'Get Max Tokens': 0.00300, 'GEC Total': 2.68400, }
